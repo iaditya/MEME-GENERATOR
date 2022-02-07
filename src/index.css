@@ -5,11 +5,22 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  max-width: 550px;
+  margin: 0 auto;
+  background: white;
+}
+
+main {
+  padding: 40px;
 }
 
 .header {
@@ -32,4 +43,36 @@ code {
 .header--project {
   font-size: 0.75rem;
   font-weight: 500;
+}
+
+.form {
+}
+
+.form--input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 30px;
+}
+input[type="text"] {
+  font-family: "Karla", sans-serif;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  color: #0d0d0d;
+  text-indent: 5px;
+}
+
+input[type="submit"] {
+  font-family: "Karla", sans-serif;
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
