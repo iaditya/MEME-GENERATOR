@@ -65,7 +65,7 @@ input[type="text"] {
   text-indent: 5px;
 }
 
-input[type="submit"] {
+input[type="button"] {
   font-family: "Karla", sans-serif;
   display: block;
   width: 100%;
@@ -75,4 +75,9 @@ input[type="submit"] {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+.meme--image {
+  max-width: 100%;
+  margin-top: 20px;
 }
